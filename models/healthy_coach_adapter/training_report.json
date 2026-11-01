@@ -1,0 +1,32 @@
+{
+  "source_dataset": "yahma/alpaca-cleaned",
+  "train_examples": 868,
+  "eval_examples": 45,
+  "epochs": 3,
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "target_modules": [
+      "k_proj",
+      "o_proj",
+      "q_proj",
+      "v_proj"
+    ]
+  },
+  "learning_rate": 0.0002,
+  "train_loss": 0.8791,
+  "eval_loss_per_epoch": [
+    1.019,
+    1.0157,
+    1.0167
+  ],
+  "minutes": 11.4,
+  "device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "evaluation": {
+    "held_out_examples": 45,
+    "base_model_loss": 1.0974,
+    "adapter_loss": 1.0124,
+    "base_model_perplexity": 3.0,
+    "adapter_perplexity": 2.75
+  }
+}
