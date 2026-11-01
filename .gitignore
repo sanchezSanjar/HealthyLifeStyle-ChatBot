@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Base model, downloaded by scripts/download_base_model.py (~2 GB)
+models/base/
+
+# Training checkpoints (the final adapter is kept)
+models/checkpoints/
+
+# Runtime files
+healthycoach.log
+profile.json

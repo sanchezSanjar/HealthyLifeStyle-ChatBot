@@ -1,0 +1,8 @@
+# PyTorch is installed by INSTALL_WINDOWS.bat (GPU build when an NVIDIA card is present).
+transformers>=4.56,<6
+peft>=0.13,<1
+accelerate>=0.34
+safetensors>=0.4
+sentencepiece>=0.2
+huggingface_hub>=0.24
+datasets>=2.20,<5
